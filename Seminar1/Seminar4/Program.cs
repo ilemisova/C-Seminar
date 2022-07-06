@@ -1,7 +1,7 @@
 ﻿/*Напишите программу, которая принимает на вход число (А) и выдаёт сумму чисел от 1 до А.*/
 
 
-/*int FindSum(int a)
+int FindSum(int a)
 {
 	int sum = 0;
 
@@ -13,7 +13,7 @@
 Console.WriteLine("Input positive int number ");
 int num = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine($"Sum of numbers from 1 to {num} is {FindSum(num)}");*/
+Console.WriteLine($"Sum of numbers from 1 to {num} is {FindSum(num)}");
 
 
 
