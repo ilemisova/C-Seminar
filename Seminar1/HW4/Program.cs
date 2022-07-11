@@ -5,17 +5,31 @@
 Решение:*/
 
 
-void PrintArray(int[] array)
+int[]CreateArray(int size)
 {
-	int count = array.Length;
-	
-	for (int i = 0; i < count; i++)
+	int[] newArray = new int[size];
+
+	Console.WriteLine("Creating array here: ");
+	for(int i = 0; i < size; i++)
 	{
-		Console.Write($"{array[i]} ");
+		Console.Write($"Input {i + 1} element: ");
+		newArray[i] = Convert.ToInt32(Console.ReadLine());
 	}
+
+	Console.WriteLine();
+	return newArray;
+}
+
+void ShowArray(int[] array)
+{
+	for(int i = 0; i < array.Length; i++)
+		Console.Write(array[i] + " ");
 	Console.WriteLine();
 }
-Console.WriteLine("Inpute number number: ");
-int number = Convert.ToInt32(Console.ReadLine());
 
-PrintArray(number);
+Console.Write("Input size of array: ");
+int size = Convert.ToInt32(Console.ReadLine());
+
+int[]array2 = CreateArray(size);
+
+ShowArray(array2);
