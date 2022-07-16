@@ -117,7 +117,7 @@ m = 3, n = 4.
 1 -3,3 8 -9,9
 8 7,8 -7,1 9*/
 
-double[,] CreateRandom2dArray(int rows, int columns, int minValue, int maxValue)
+/*double[,] CreateRandom2dArray(int rows, int columns, int minValue, int maxValue)
 {
 	double[,] newArray = new double[rows, columns];
 
@@ -146,10 +146,10 @@ int n = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Input min possible value: ");
 int min = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Input maxpossible value: ");
-int max = Convert.ToInt32(Console.ReadLine());
+int max = Convert.ToInt32(Console.ReadLine()); */
 
 double[,] myArray = CreateRandom2dArray(m,n,min,max);
-Show2dArray(myArray);
+Show2dArray(myArray);*/
 
 /*Задача 50. Напишите программу, которая на вход принимает позиции элемента в двумерном массиве,
  и возвращает значение этого элемента или же указание, что такого элемента нет.
