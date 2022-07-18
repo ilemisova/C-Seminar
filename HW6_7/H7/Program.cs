@@ -19,12 +19,12 @@ void Show2dArray(double[,] array)
 	}
 }
 
-Console.WriteLine("Input number of rows: ");
+/*Console.WriteLine("Input number of rows: ");
 double m = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Input number of columns: ");
 double n = Convert.ToInt32(Console.ReadLine());
 
 double[,] myArray = CreateRandom2dArray();
-Show2dArray(myArray);
+Show2dArray(myArray);*/
 
 
